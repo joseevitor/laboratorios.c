@@ -28,8 +28,8 @@ int main(void) {
     for(;;){
     PORTD = 0x55;
         
-        Delay10KTCYx(200); // Manter comentado na simulação e depuração ? na gravação pode retirar o //
+        Delay10KTCYx(200); // Manter comentado na simulaÃ§Ã£o e depuraÃ§Ã£o ? na gravaÃ§Ã£o pode retirar o //
     PORTD = 0xFF;
-        Delay10KTCYx(200); // Manter comentado na simulação e depuração ? na gravação pode retirar o //
+        Delay10KTCYx(200); // Manter comentado na simulaÃ§Ã£o e depuraÃ§Ã£o ? na gravaÃ§Ã£o pode retirar o //
     }
 }
